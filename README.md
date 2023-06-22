@@ -20,4 +20,5 @@ Once you login, run the command below;
 $ sudo dpkg-reconfigure wireshark-common
 
 Choose 'YES' in the interactive question that follows. 
+
 And that's all. The Kali Box is ready for use.
