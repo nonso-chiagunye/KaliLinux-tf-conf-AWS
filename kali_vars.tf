@@ -130,4 +130,27 @@ variable "kali_sg_name" {
     default = ""
 }
 
+variable "backend_bucket_name" {
+    type = string
+    default = ""
+}
 
+variable "backend_state_location" {
+    type = string
+    default = ""
+}
+
+variable "backend_region" {
+    type = string
+    default = ""
+}
+
+variable "dynamodb_id" {
+    type = string
+    default = ""
+}
+
+variable "encrypt_tfstate" {
+    type = bool
+    default = true
+}
