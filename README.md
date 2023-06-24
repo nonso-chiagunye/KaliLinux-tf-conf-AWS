@@ -3,7 +3,7 @@ The configuration files to launch a custom Kali box is hosted in this repo.
 
 First, edit the kali_vars.tf to supply your unique variables.
 
-Edit the provider.tf to configure your backend (or comment out if you use local backend)
+Comment out the backend configuration if you use local backend
 
 Enter your bucket name in the iam policy section of the kali_iam.tf file, or comment entire file out if it does not apply to your use case
 
